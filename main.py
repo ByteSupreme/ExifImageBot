@@ -9,10 +9,10 @@ load_dotenv()
 # Bot credentials from .env file
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7712641753:AAGULmbRywEYmS0DsSDOXdZSsYNjOv5_Wyw")
 
 # Initialize the bot client
-app = Client("exif_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("exif_bot", api_id=API_ID, api_hash=API_HASH, bot_token=7712641753:AAGULmbRywEYmS0DsSDOXdZSsYNjOv5_Wyw)
 
 def get_exif(file_path):
     try:
